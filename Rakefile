@@ -22,7 +22,7 @@ end
 
 namespace :db do
   task :migrate => :environment do
-    Pry.start
+    # Pry.start
     Student.create_table
   end
   task :seed do
